@@ -1,0 +1,461 @@
+ .wrapper{ 
+     margin: 0;
+    padding: 0;
+    background-image: url("./github.jpg");
+    background-repeat: no-repeat;
+     background-position-x: right; 
+     background-color: #0d1117;
+
+}
+header{
+    height: 80px;
+    /* background-color:black; */
+}
+img{
+    height: 50px;
+}
+input{
+    height: 40px;
+    width: 500px;
+}
+button{
+    height: 40px;
+    width: 80px;
+}
+#divheader{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    padding-top: 25px;
+    font-size: larger;
+}
+#divheader a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgb(8, 0, 0);
+}
+a:hover,.btn:hover,input:hover{
+background-color: rgb(85, 74, 188);
+}
+#divheader img{
+padding-left: 0%;
+} 
+.btn{
+    width: 200px;
+    border: 1px solid black;
+}
+section{
+    
+    height: 8800px;
+    color: white;
+    /* background-color: rgb(14, 14, 14); */
+    display: flex;
+    justify-content: center;
+    
+}
+#vr{
+
+    border: 2px solid rgb(48, 87, 166);
+    position: absolute;
+    height: 8300px;
+    margin-top: 300px;
+    margin-right: 20px;
+}
+#section1{
+   margin-top: 200px;
+   margin-left: 50px;
+   
+}
+#section1 h1{
+    font-size: 100px;
+}
+#section1 h2{
+    margin-top: 0%;
+    font-size: 30px;
+    color: rgb(208, 205, 226);
+}
+#section1 h3{
+    font-size: 40px
+}
+#section1 h4{
+    font-size: 25px;
+}
+#section h5{
+    font-size: 80px;
+}
+#section1 p{
+    font-size: 15px;
+    color: rgb(201, 212, 212);
+}
+/* #section1 button{
+    color: blueviolet;
+    width: 100px;
+    height: 40px;
+} */
+.btn1{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(91, 61, 179);
+    color: rgb(255 255 255);
+}
+#sectionp{
+   font-size: larger;
+}
+#divimg{
+    display: flex;
+    justify-content: space-between;
+}
+#productivity{
+    margin-top: 300px;
+}
+#Accelerate{
+    color: green;
+    font-size: 50px;
+}
+#Accelerate h3{
+    margin-top: 5px;
+    font-size: 50px;
+    color: aliceblue;
+}
+#img2{
+    margin-top: 100px;
+   height: 700px;
+   width: 850px;
+}
+#img3{
+    height: 500px;
+    width: 600px;
+}
+#GithubCopilot{
+    margin-top: 100px;
+}
+#img4{
+    height: 500px;
+    width: 80px;
+    border-radius: 10px;
+}
+#img5{
+    height: 500px;
+    width: 800px;
+    margin-bottom: 100px;
+}
+#img6{
+    height: 390px;
+    width: 600px;
+}
+#img7{
+    height: 420px;
+    width: 600px;
+}
+#img11{
+    height: 390px;
+    width: 600px; 
+}
+#divgreen{
+    display: flex; 
+}
+#didyouknow{
+   border-radius: 25px;
+   background-color: rgb(14, 248, 6);
+   color: rgb(4, 4, 0);
+   width: 150px;
+   height: 20px;
+   margin-top: 100px;
+   text-align: center;
+   margin-bottom: 300px;
+}
+#githubaction{
+    width: 1300px;
+    height: 500px;
+    border: 0.01px solid white;
+    border-radius: 20px;
+    margin-top: 100px;
+    display: flex;
+}
+#githubact{
+    margin-left: 100px;
+}
+#outbox{
+    height: 600px;
+    width: 1300px;
+    margin-top: 200px;
+    display: flex;
+}
+#inbox1{
+    margin-left: 20px;
+    border: 0.5px solid white;
+    border-radius: 20px;
+}
+#inbox2{
+    margin-left: 30px;
+    border: 0.5px solid white;
+    border-radius: 20px;
+}
+#out1{
+    margin-left: 50px;
+}
+#out2{
+    margin-left: 50px;
+}
+#Applicationsecurity{
+    margin-top: 200px;  
+}
+#EmpowerDeveloper{
+    color: rgb(76, 220, 249);
+    font-size: 50px;
+}
+#EmpowerDeveloper h3{
+    margin-top: 5px;
+    font-size: 50px;
+    color: aliceblue;
+}
+#outbox1{
+    height: 500px;
+    width: 1200px;
+    background-color: rgb(59, 67, 67);
+    border-radius: 20px;
+}
+#camakeout{
+    height: 40px;
+    width: 1100px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+#camake{
+    margin-top: 10px;
+    font-weight: bold;
+    color: darkslategray;
+}
+#buildout{
+    height: 200px;
+    width: 1200px;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+   
+}
+#build{
+    height: 60px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: rgb(10, 41, 41);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+
+}
+#connect{
+    height: 3px;
+    width: 50px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+#steps{
+    height: 200px;
+    width: 450px;
+    background-color: rgb(10, 41, 41);
+    margin-top: 70px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#img8{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    
+}
+.img9{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
+#img10{
+   
+    height: 300px;
+    width: 450px;
+    margin-left: 700px;
+    margin-top: 130px;
+    border: 10px;
+}
+#buildinr{
+    height: 50px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#did{
+    background-color: aqua;
+    height: 20px;
+    width: 140px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#faster{
+
+height: 50px;
+width: 400px;
+}
+#valnerability{
+    margin-top: 80px;
+    width: 500px;
+    height: 30px;
+    margin-right: 40px;
+}
+#Codescanning {
+    width: 1300px;
+    height: 500px;
+    border: 0.01px solid white;
+    border-radius: 20px;
+    margin-top: 100px;
+    display: flex;
+}
+#codessc{
+    margin-left: 50px;
+}
+#imgbox{
+    margin-top: 50px;
+    height: 500px;
+    width: 1210px;
+    border: 0.25px solid white;
+    border: 10px;
+}
+
+#img12{
+    height: 400px;
+    width: 1200px;
+}
+
+#sectiondown {
+
+    margin-left: 20px;
+    }
+
+footer{
+    height: 1250px;
+    color: aliceblue;
+}
+#footout{
+    height: 500px;
+    width: 1000px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+#img13{
+    height: 150px;
+    width: 150px;  
+    
+}
+
+#img15{
+
+    height: 150px;
+    width: 150px; 
+    margin-right: 200px;  
+    margin-top: 300px;
+}
+
+#planet-video {
+    height: 500px;
+    width: 700px;
+    border-radius: 50%;
+}
+#footcont{
+    width: 70%;
+    color: rgb(183, 237, 237);
+    height: 200px;
+    margin-left: 200px;
+}
+#footlast{
+    width: 70%;
+    height: 470px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#product{
+    text-align: center;
+    color: rgb(203, 244, 244);
+    margin-top: 20px;
+    font-size: large;
+}
+#product a{
+    color: rgb(203, 244, 244);  
+    text-decoration: none; 
+   
+} 
+#product ul li{
+    list-style-type: none;
+}
+#platform{
+    text-align: center;
+    color: rgb(203, 244, 244); 
+    margin-top: 20px; 
+    font-size: large;
+}
+#platform a{
+    color: rgb(203, 244, 244);  
+    text-decoration: none; 
+}
+#platform ul li{
+    list-style-type: none;
+}
+#support{
+    text-align: center;
+    color: rgb(203, 244, 244);  
+    margin-top: 20px;
+    font-size: large;
+}
+#support a{
+    color: rgb(203, 244, 244); 
+    text-decoration: none; 
+}
+#support ul li{
+    list-style-type: none;
+   
+}
+#company{
+    text-align: center;
+    color: rgb(203, 244, 244); 
+    margin-top: 20px;  
+    font-size: large;  
+}
+#company a{
+    color: rgb(203, 244, 244);  
+    text-decoration: none; 
+}
+#company ul li{
+    list-style-type: none;
+}
+#footerend{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(29, 30, 24);
+    border: 1 px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lastA{
+    align-items: center;
+    
+}
+#lastA a{
+    color: rgb(203, 244, 244);  
+}
+#lastI ul li{
+    list-style-type: none;
+}
+#lastI ul{
+    display: flex;
+    justify-content: space-evenly
+}
+
+
